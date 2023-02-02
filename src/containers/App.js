@@ -40,17 +40,19 @@ function App() {
   return !pokemon.length ?
     <h1>Loading...</h1> :
     (
-      <div className="container">
-        <div className="sticky">
-          <p>Pokémon DB</p>
+      <div className='container'>
+        <div className='sticky'>
+          <p>
+            <a href='https://github.com/wpellas/pokedb'>Pokémon DB</a>
+          </p>
           <SearchBox searchFieldChange={onSearchFieldChange} />
         </div>
         <ErrorBoundry>
-          <div className="cardContainer">
+          <div className='cardContainer'>
             <CardList pokemon={filteredPokemon} />
           </div>
         </ErrorBoundry>
-        <div className="footer">
+        <div className='footer'>
           <p>Made by <a href='https://williampellas.com/'>William Pellas</a>, using <a href='https://pokeapi.co/'>poke api</a> and React</p>
         </div>
       </div>

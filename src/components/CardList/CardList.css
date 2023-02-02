@@ -1,6 +1,5 @@
 .cardList {
-    margin-top: 5rem;
-    width: 90%;
+    width: 150vh;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -8,7 +7,6 @@
     flex-wrap: wrap;
     gap: 1rem;
     background-color: #e4f5ff;
-    padding: 1rem;
+    padding: 10rem 1rem 5rem 1rem;
     box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.5 );
-    
 }
