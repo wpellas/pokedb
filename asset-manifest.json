@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wpellas/pokedb/static/css/main.fee067af.css",
-    "main.js": "/wpellas/pokedb/static/js/main.6ddf82b1.js",
-    "static/js/787.8fb7da8c.chunk.js": "/wpellas/pokedb/static/js/787.8fb7da8c.chunk.js",
-    "index.html": "/wpellas/pokedb/index.html",
-    "main.fee067af.css.map": "/wpellas/pokedb/static/css/main.fee067af.css.map",
-    "main.6ddf82b1.js.map": "/wpellas/pokedb/static/js/main.6ddf82b1.js.map",
-    "787.8fb7da8c.chunk.js.map": "/wpellas/pokedb/static/js/787.8fb7da8c.chunk.js.map"
+    "main.css": "/pokedb/static/css/main.fee067af.css",
+    "main.js": "/pokedb/static/js/main.032328d9.js",
+    "static/js/787.8fb7da8c.chunk.js": "/pokedb/static/js/787.8fb7da8c.chunk.js",
+    "index.html": "/pokedb/index.html",
+    "main.fee067af.css.map": "/pokedb/static/css/main.fee067af.css.map",
+    "main.032328d9.js.map": "/pokedb/static/js/main.032328d9.js.map",
+    "787.8fb7da8c.chunk.js.map": "/pokedb/static/js/787.8fb7da8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fee067af.css",
-    "static/js/main.6ddf82b1.js"
+    "static/js/main.032328d9.js"
   ]
 }
