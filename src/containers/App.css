@@ -23,6 +23,7 @@ html {
   justify-content: space-between;
   align-content: stretch;
   box-shadow: 4px 4px 10px 0px rgba( 0, 0, 0, .5 );
+  z-index: 3;
 }
 .sticky > h1 {
   margin: 0;
