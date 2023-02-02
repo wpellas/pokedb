@@ -11,7 +11,7 @@ function App() {
   const [searchField, setSearchField] = useState('');
   
   useEffect(() => {
-    fetch('https://pokeapi.co/api/v2/pokemon/?offset=0&limit=10')
+    fetch('https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1008')
     .then(response => response.json())
     .then(data => {
       const foundPokemon = data.results;
@@ -41,10 +41,14 @@ function App() {
     <h1>Loading</h1> :
     (
       <div className="container">
-        <h1 className="mainTitle">Pokémon DB</h1>
-        <SearchBox searchFieldChange={onSearchFieldChange} />
+        <div className="sticky">
+          <h1>Pokémon DB</h1>
+          <SearchBox searchFieldChange={onSearchFieldChange} />
+        </div>
         <ErrorBoundry>
-          <CardList pokemon={filteredPokemon} />
+          <div className="cardContainer">
+            <CardList pokemon={filteredPokemon} />
+          </div>
         </ErrorBoundry>
       </div>
     );
