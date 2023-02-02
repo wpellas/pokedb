@@ -1,7 +1,7 @@
 {
   "name": "pokedb",
   "version": "0.1.0",
-  "homepage": "https://github.com/wpellas/pokedb",
+  "homepage": "https://wpellas.github.io/pokedb",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
