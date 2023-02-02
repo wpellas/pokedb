@@ -6,7 +6,7 @@ const Card = ({ name, types, height, weight, id }) => {
         <div className='card'>
                 <p className='cardName'>{name.toUpperCase()}</p>
             <div className="cardImgContainer">
-                <img className='cardImg' src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`} alt="pokemon" />
+                <img lazyload="" className='cardImg' src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`} alt="pokemon" />
             </div>
             <div className='cardText'>
                 <div className="typeData">

@@ -17,6 +17,12 @@
     border: 1rem solid #fb9d6b;
     z-index: 2;
 }
+.card:active {
+    transform: scale(3);
+    rotate: 0deg;
+    border: 1rem solid #fb726b;
+    z-index: 2;
+}
 /* NAME */
 .cardName {
     font-family: 'Sofia Sans Extra Condensed', sans-serif;

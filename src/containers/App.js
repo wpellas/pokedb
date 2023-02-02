@@ -38,11 +38,11 @@ function App() {
   }).sort((item1, item2) => item1.id - item2.id)
 
   return !pokemon.length ?
-    <h1>Loading</h1> :
+    <h1>Loading...</h1> :
     (
       <div className="container">
         <div className="sticky">
-          <h1>Pokémon DB</h1>
+          <p>Pokémon DB</p>
           <SearchBox searchFieldChange={onSearchFieldChange} />
         </div>
         <ErrorBoundry>
@@ -50,6 +50,9 @@ function App() {
             <CardList pokemon={filteredPokemon} />
           </div>
         </ErrorBoundry>
+        <div className="footer">
+          <p>Made by <a href='https://williampellas.com/'>William Pellas</a>, using <a href='https://pokeapi.co/'>poke api</a> and React</p>
+        </div>
       </div>
     );
   }
