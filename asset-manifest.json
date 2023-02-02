@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wpellas/pokedb/static/css/main.fee067af.css",
+    "main.js": "/wpellas/pokedb/static/js/main.6ddf82b1.js",
+    "static/js/787.8fb7da8c.chunk.js": "/wpellas/pokedb/static/js/787.8fb7da8c.chunk.js",
+    "index.html": "/wpellas/pokedb/index.html",
+    "main.fee067af.css.map": "/wpellas/pokedb/static/css/main.fee067af.css.map",
+    "main.6ddf82b1.js.map": "/wpellas/pokedb/static/js/main.6ddf82b1.js.map",
+    "787.8fb7da8c.chunk.js.map": "/wpellas/pokedb/static/js/787.8fb7da8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fee067af.css",
+    "static/js/main.6ddf82b1.js"
+  ]
+}
