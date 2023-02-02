@@ -1,0 +1,48 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 100%;
+  max-height: 100%;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+/* HEADER */
+.sticky {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: sticky;
+  background-color: white;
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  box-shadow: 4px 4px 10px 0px rgba( 0, 0, 0, .5 );
+  z-index: 3;
+}
+.sticky > h1 {
+  margin: 0;
+  text-align: left;
+}
+
+/* SEARCHBOX */
+.searchContainer {
+  text-align: center;
+}
+.searchInput {
+  width: 25rem;
+  height: 3rem;
+}
+
+/* CARDS */
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}

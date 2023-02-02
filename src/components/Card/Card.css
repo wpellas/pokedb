@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@200;300&display=swap');
+
+/* FULL */
+.card {
+    text-align: center;
+    border: 1rem solid #fbdb6b;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 20rem;
+    background-color: rgb(238, 255, 255);
+    box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    transition: all 0.2s;
+}
+.card:hover {
+    transform: scale(1.3);
+    rotate: 3deg;
+    border: 1rem solid #fb9d6b;
+    z-index: 2;
+}
+/* NAME */
+.cardName {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 1.8rem;
+    margin: .3rem;
+    font-weight: 300;
+}
+
+/* IMAGE */
+.cardImgContainer {
+    margin: 0 auto;
+    width: 13rem;
+    border: .3rem solid #fbdb6b;
+    background-color: white;
+}
+.cardImg {
+    width: 10rem;
+    height: 10rem;
+}
+
+/* BODY */
+/* .cardText {
+
+} */
+.bodyData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+.typeData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    margin-top: .3rem;
+}
+/* .cardType {
+
+} */
+.cardDex {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    margin-right: .3rem;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 100;
+}
