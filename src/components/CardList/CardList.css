@@ -7,19 +7,21 @@
     flex-wrap: wrap;
     gap: 1rem;
     background-color: #e4f5ff;
-    padding: 10rem 1rem 5rem 1rem;
+    padding: 18rem 1rem 5rem 1rem;
     box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.5 );
 }
 
+/* OTHER SIZES */
 @media screen 
   and (max-width: 600px) {
     .cardList {
         max-width: 100%;
     }
 }
+
 @media screen
     and (max-height: 600px) {
         .cardList {
             max-width: 100%;
-        }
     }
+}

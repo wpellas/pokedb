@@ -53,7 +53,7 @@ function App() {
           </div>
         </ErrorBoundry>
         <div className='footer'>
-          <p>Made by <a href='https://williampellas.com/'>William Pellas</a>, using <a href='https://pokeapi.co/'>poke api</a> and React</p>
+          <p>Made by <a href='https://williampellas.com/'>William Pellas</a>, using <a href='https://pokeapi.co/'>poke api</a> and <a href='https://reactjs.org/'>React</a></p>
         </div>
       </div>
     );
