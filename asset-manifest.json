@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pokedb/static/css/main.b60d0af4.css",
-    "main.js": "/pokedb/static/js/main.9999df1a.js",
+    "main.css": "/pokedb/static/css/main.0e71e773.css",
+    "main.js": "/pokedb/static/js/main.d543600e.js",
     "static/js/787.8fb7da8c.chunk.js": "/pokedb/static/js/787.8fb7da8c.chunk.js",
     "index.html": "/pokedb/index.html",
-    "main.b60d0af4.css.map": "/pokedb/static/css/main.b60d0af4.css.map",
-    "main.9999df1a.js.map": "/pokedb/static/js/main.9999df1a.js.map",
+    "main.0e71e773.css.map": "/pokedb/static/css/main.0e71e773.css.map",
+    "main.d543600e.js.map": "/pokedb/static/js/main.d543600e.js.map",
     "787.8fb7da8c.chunk.js.map": "/pokedb/static/js/787.8fb7da8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b60d0af4.css",
-    "static/js/main.9999df1a.js"
+    "static/css/main.0e71e773.css",
+    "static/js/main.d543600e.js"
   ]
 }
