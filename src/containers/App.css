@@ -29,13 +29,12 @@ html {
   z-index: 3;
 }
 .sticky > p {
-  width: 25rem;
-  height: 3rem;
+  max-width: 25rem;
+  max-height: 3rem;
   margin: 0;
   text-align: left;
   font-weight: 300;
-  font-size: 3rem;
-  
+  font-size: 3rem; 
 }
 .sticky > p > a {
   text-decoration: none;
@@ -77,3 +76,31 @@ html {
   margin: 0;
   padding: 0;
 }
+
+@media screen 
+  and (max-width: 600px) {
+    .searchInput {
+      text-align: center;
+      width: 15rem;
+      height: 2rem;
+      font-family: 'Sofia Sans Extra Condensed', sans-serif;
+      font-size: 1rem;
+    }
+    .sticky > p {
+      font-size: 2rem; 
+    }
+}
+
+@media screen
+    and (max-height: 600px) {
+      .searchInput {
+        text-align: center;
+        width: 15rem;
+        height: 2rem;
+        font-family: 'Sofia Sans Extra Condensed', sans-serif;
+        font-size: 1rem;
+      }
+      .sticky > p {
+        font-size: 2rem; 
+      }
+    }
