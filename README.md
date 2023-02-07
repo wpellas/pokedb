@@ -8,4 +8,4 @@ It fetches the long list of Pokémon and loops through each name to once again f
 
 ### Can I use it?
 
-https://wpellas.github.io/pokedb/
+https://williampellas.com/pokedb/
